@@ -1,1 +1,1 @@
-# Full-body Tumor Segmentation in MRI Images
+# 3D Prostate Segmentation from MR Images using FCNN
