@@ -39,17 +39,6 @@ We trained our model on different GPUs and got the following speedups.
 | Single P100       | 2             | 48                         |
 | Single P100       | 5             | 27                         |
 
-## Intermediate Segmentation
-
-<h5></h5>
-<img src="images/epoch_2.png" style="float: left;" width="300px" height="300px">
-<img src="images/epoch_20.png" style="float: left;" width="300px" height="300px">
-<img src="images/epoch_40.png" style="float: left;" width="300px" height="300px">
-<img src="images/epoch_1200.png" style="float: left;" width="300px" height="300px">
-<img src="images/epoch_2200.png" style="float: left;" width="300px" height="300px">
-<img src="images/epoch_3400.png" style="float: left;" width="300px" height="300px">
-<h1></h1>
-
 ## Evaluation Metrics
 
 The metrics used in this study are widely used for the evaluation of segmentation algorithms:
