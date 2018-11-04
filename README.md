@@ -2,7 +2,7 @@
 This repository contain files related to automatic prostate segmentation from MR Images using fully convolutional neural networks. The dataset is provided by PROMISE12 challenge. 
 
 # About the files
-- [resizing.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/resizing.py): Converts volume of different different sizes to same (128x128x64).
+- [resizing.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/resizing.py): Converts volume of different sizes to same (128x128x64).
 - [DataGenerator.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/DataGenerator.py): For reading the images and performing various augmentations.
 - [train.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/train.py): File used for training the model.
 - [predict.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/predict.py): File used for inferencing of trained model.
