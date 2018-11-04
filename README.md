@@ -1,6 +1,14 @@
 # 3D Prostate Segmentation from MR Images using FCNN
 This repository contain files related to automatic prostate segmentation from MR Images using fully convolutional neural networks. The dataset is provided by PROMISE12 challenge. 
 
+# About the files
+- <b>resizing.py</b>: Converts volume of different different sizes to same (128x128x64).
+- <b>DataGenerator.py</b>: For reading the images and performing various augmentations.
+- <b>train.py</b>: File used for training the model.
+- <b>predict.py</b>: File used for inferencing of trained model.
+- <b>metric_eval.py</b>: File for evaluating various metrics using predictions and actual labels. Metrics include Hausdorff Distance, Dice, boundary distance, volume difference, precision, recall and many more.
+
+
 - Prostate cancer is among the most commonly diagnosed and leading causes of cancer related death in developed countries.
 - The early detection of prostate cancer plays a significant role in the success of treatment and outcome.
 - Radiologists first segment the prostate image from ultrasound image and then identify the hypoechoic regions which are more likely to exhibit cancer and should be considered for biopsy.
@@ -50,5 +58,3 @@ The metrics used in this study are widely used for the evaluation of segmentatio
 # Results
 
 After training for 5000 epochs we got a dice loss of 0.92 and 0.80 on training and validation set. The results were then submitted to the MICCAI PROMISE12 challenge, and we received a score of <b>73.98</b> on the test set.
-
-<video controls src="segmentation_results.mov" width="1000px" height="800px"/> 
