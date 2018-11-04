@@ -8,6 +8,7 @@ This repository contain files related to automatic prostate segmentation from MR
 - <b>predict.py</b>: File used for inferencing of trained model.
 - <b>metric_eval.py</b>: File for evaluating various metrics using predictions and actual labels. Metrics include Hausdorff Distance, Dice, boundary distance, volume difference, precision, recall and many more.
 
+# Introduction
 
 - Prostate cancer is among the most commonly diagnosed and leading causes of cancer related death in developed countries.
 - The early detection of prostate cancer plays a significant role in the success of treatment and outcome.
