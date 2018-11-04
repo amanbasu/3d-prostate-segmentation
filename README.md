@@ -6,7 +6,7 @@ This repository contain files related to automatic prostate segmentation from MR
 - [DataGenerator.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/DataGenerator.py): For reading the images and performing various augmentations.
 - [train.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/train.py): File used for training the model.
 - [predict.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/predict.py): File used for inferencing of trained model.
-- [metric_eval.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/metric_eval.py): File for evaluating various metrics using predictions and actual labels. Metrics include Hausdorff Distance, Dice, boundary distance, volume difference, precision, recall and many more.
+- [metric_eval.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/metric_eval.py): File for evaluating various metrics using predictions and actual labels. Metrics include Hausdorff distance, dice, boundary distance, volume difference, precision, recall and many more.
 
 # Introduction
 
