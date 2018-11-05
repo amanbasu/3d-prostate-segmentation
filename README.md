@@ -1,7 +1,7 @@
 # 3D Prostate Segmentation from MR Images using FCNN
 Collaborator: [Aman Agarwal](https://amanbasu.github.io), [Aditya Mishra](https://aditya985.github.io)
 
-This repository contain files related to automatic prostate segmentation from MR Images using fully convolutional neural networks. The dataset is provided by PROMISE12 challenge. 
+This repository contain files related to automatic prostate segmentation from MR Images using fully convolutional neural networks. The dataset is provided by [PROMISE12 challenge](https://promise12.grand-challenge.org). 
 
 # About the files
 - [resizing.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/resizing.py): Converts volume of different sizes to same (128x128x64).
