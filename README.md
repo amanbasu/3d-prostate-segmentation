@@ -1,6 +1,5 @@
 # 3D Prostate Segmentation from MR Images using FCNN
 Collaborator: [Aman Agarwal](https://amanbasu.github.io), [Aditya Mishra](https://aditya985.github.io)
-Tensorflow Version: 1.10.0
 
 This repository contain files related to automatic prostate segmentation from MR Images using fully convolutional neural networks. The dataset is provided by [PROMISE12 challenge](https://promise12.grand-challenge.org). 
 
@@ -39,6 +38,8 @@ This repository contain files related to automatic prostate segmentation from MR
 
 We used a modified V-net architecture for segmentation shown in the figure below.
 ![](images/model_detail.jpg)
+
+> Tensorflow Version: 1.10.0
 
 # Training
 
