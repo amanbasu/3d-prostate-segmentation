@@ -39,10 +39,8 @@ This repository contain files related to automatic prostate segmentation from MR
 We used a modified V-net architecture for segmentation shown in the figure below.
 ![](images/model_detail.jpg)
 
-> Tensorflow Version: 1.10.0
-
 # Training
-
+> Tensorflow Version: 1.10.0
 We trained our model on different GPUs and got the following speedups.
 
 | GPU configuration | Batch Size    | Average Time per Epoch (s) |
