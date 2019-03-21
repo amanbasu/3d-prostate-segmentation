@@ -65,4 +65,4 @@ The metrics used in this study are widely used for the evaluation of segmentatio
 
 # Results
 
-After training for 5000 epochs we got a dice loss of 0.94 and 0.87 on training and validation set. The results were then submitted to the MICCAI PROMISE12 challenge, and we received a score of <b>84.61</b> on the test set.
+After training for 5700 epochs we got a dice loss of 0.94 and 0.87 on training and validation set. The results were then submitted to the MICCAI PROMISE12 challenge, and we received a score of <b>84.61</b> on the test set.
