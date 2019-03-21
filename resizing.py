@@ -47,12 +47,12 @@ def resample(img, new_size, interpolator):
 
 new_size = [144,144,50]             
 interp = sitk.sitkNearestNeighbour  # for labels
-interp = sitk.sitkLinear            # for features
+# interp = sitk.sitkLinear            # for input features
 
-for file in sorted(glob.glob('train-data-orig/Case*_segmentation.mhd')):
-    # uncomment when resizing features
+for file in sorted(glob.glob('train/Case*_segmentation.mhd')):
+    # uncomment when resizing input images
 #     file = file.replace('_segmentation', '')
     img = sitk.ReadImage(file)
     reshaped = resample(img, new_size, interp)
-    sitk.WriteImage(reshaped, file.replace('-orig',''))
+    sitk.WriteImage(reshaped, file)
     print(file, end='\r')
