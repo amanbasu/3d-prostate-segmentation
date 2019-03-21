@@ -7,6 +7,8 @@ Images Using FCNN with Increased Receptive Field**, presented at **Nvidia GTC 20
 ![](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/images/Deep%20Learning%20Research_20_P9190_Aman_Agarwal_1920x1607.png)
 
 # About the files
+> Tensorflow Version: 1.10.0
+
 - [resizing.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/resizing.py): Converts volume of different sizes to same (128x128x64).
 - [DataGenerator.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/DataGenerator.py): For reading the images and performing various augmentations.
 - [train.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/train.py): File used for training the model.
@@ -43,9 +45,6 @@ We used a modified V-net architecture for segmentation shown in the figure below
 ![](images/model_detail.jpg)
 
 # Training
-
-> Tensorflow Version: 1.10.0
-
 We trained our model on different GPUs and got the following speedups.
 
 | GPU configuration | Batch Size    | Average Time per Epoch (s) |
