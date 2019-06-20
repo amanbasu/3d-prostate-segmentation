@@ -310,12 +310,12 @@ def train():
         merged = tf.summary.merge_all()
         merged_val = tf.summary.merge_all(key = 'val')
 
-        train_writer = tf.summary.FileWriter(event_file+'/train',sess.graph)
-        val_writer = tf.summary.FileWriter(event_file+'/val')
+        train_writer = tf.summary.FileWriter('event/train',sess.graph)
+        val_writer = tf.summary.FileWriter('event/val')
         
         saver = tf.train.Saver()
 
-        for epoch in range(1+init_epoch, no_of_epochs+init_epoch+1):
+        for epoch in range(1, no_of_epochs+1):
             start_time = time.time()
             train_loss = []
             examples = 0
@@ -350,7 +350,7 @@ def train():
                             break
                     break
             
-            print('Epoch: {}/{} - loss: {:.6f} - val_loss: {:.6f} - time: {:.4f}'.format(epoch, no_of_epochs+init_epoch, 
+            print('Epoch: {}/{} - loss: {:.6f} - val_loss: {:.6f} - time: {:.4f}'.format(epoch, no_of_epochs, 
                 sum(train_loss)/len(train_loss), sum(val_loss)/len(val_loss), time.time()-start_time))
             
             # saving weights
