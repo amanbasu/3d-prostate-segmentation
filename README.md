@@ -5,7 +5,8 @@ This repository contains files related to **Volumetric Segmentation of Prostate 
 Images Using FCNN with Increased Receptive Field**, presented at **Nvidia GTC 2019** ([link](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/images/Deep%20Learning%20Research_20_P9190_Aman_Agarwal_1920x1607.png)). The dataset is provided by [PROMISE12 challenge](https://promise12.grand-challenge.org).
 
 # About the files
-> Tensorflow Version: 1.10.0
+
+<img src="https://img.shields.io/badge/version-tensorflow==1.10.0-green"/>
 
 - [resizing.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/resizing.py): Converts volume of different sizes to same (128x128x64).
 - [DataGenerator.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/DataGenerator.py): For reading the images and performing various augmentations.
