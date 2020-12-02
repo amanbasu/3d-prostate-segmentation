@@ -6,7 +6,7 @@ Images Using FCNN with Increased Receptive Field**, presented at **Nvidia GTC 20
 
 # About the files
 
-<img src="https://img.shields.io/badge/version-tensorflow==1.10.0-green"/>
+<img src="https://img.shields.io/badge/version-tensorflow==1.10.0-green?logo=tensorflow"/>
 
 - [resizing.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/resizing.py): Converts volume of different sizes to same (128x128x64).
 - [DataGenerator.py](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/DataGenerator.py): For reading the images and performing various augmentations.
