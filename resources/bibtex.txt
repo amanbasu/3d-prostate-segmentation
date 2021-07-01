@@ -3,5 +3,7 @@
   author={Aman Agarwal and Aditya Mishra and Madhushree Basavarajaiah and Priyanka Sharma and Sudeep Tanwar},
   journal={Pattern Recognition and Image Analysis},
   year={2021},
-  volume={31}
+  volume={31},
+  doi={10.1134/S1054661821020024},
+  url={https://doi.org/10.1134/S1054661821020024}
 }
