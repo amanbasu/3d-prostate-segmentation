@@ -7,7 +7,7 @@ Collaborator: [Aman Agarwal](https://amanbasu.github.io), [Aditya Mishra](https:
 This repository contains files related to **Volumetric Segmentation of Prostate from MR
 Images Using FCNN with Increased Receptive Field**, presented at **Nvidia GTC 2019** ([link](https://github.com/amanbasu/3d-prostate-segmentation/blob/master/images/Deep%20Learning%20Research_20_P9190_Aman_Agarwal_1920x1607.png)). The dataset is provided by [PROMISE12 challenge](https://promise12.grand-challenge.org).
 
-[DOI 10.1134/S1054661821020024](https://doi.org/10.1134/S1054661821020024)
+DOI [10.1134/S1054661821020024](https://doi.org/10.1134/S1054661821020024)
 
 # About the files
 
